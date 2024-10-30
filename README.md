@@ -7,23 +7,33 @@ WALLACE DOS SANTOS PINTO
 
 
 
-**Situação Problema**
+**Situação Problema**:
 Desenvolvimento de uma plataforma web para agendamento de atendimentos no Núcleo de Apoio Contábil e Fiscal (NAF) do Centro Universitário Serra dos Órgãos (Unifeso).
 
 
-**obejetivo**
+**obejetivo**:
 tornar o processo de agendamento mais eficiente e acessível para as pessoas.
 
-**tecnologias**
+
+**publico alvo**:
+população local,cidadãos que procuram assistencia fiscal e contábil.
+
+
+
+**dores do publico alvo**:
+pessoas que procuram um agendamento do NAF.
+
+
+**tecnologias**:
 HTML,CSS.JAVASCRIPT
 
 
-**instruções para Executar o MVP**
+**instruções para Executar o MVP**:
 git clone https://github.com/grupo2-agendafacil/AgendaFacil-NAF.git
 cd AgendaFacil-NAF
 
 
-**Instale as Dependências**
+**Instale as Dependências**:
 No diretório principal, execute
 npm install
 
