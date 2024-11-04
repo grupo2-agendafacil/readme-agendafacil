@@ -1,4 +1,4 @@
-# readme-agendafacil
+# Gurpo2-agendafacil
 **integrantes da equipe**
 CAUA DA SILVA COUTO,
 JEAN LUCAS NOGUEIRA FREITAS DA SILVA,
