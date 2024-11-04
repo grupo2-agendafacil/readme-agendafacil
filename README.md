@@ -1,4 +1,4 @@
-# Gurpo2-agendafacil
+# Grupo2-agendafacil
 **integrantes da equipe**
 CAUA DA SILVA COUTO,
 JEAN LUCAS NOGUEIRA FREITAS DA SILVA,
