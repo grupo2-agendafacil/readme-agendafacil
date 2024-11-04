@@ -32,6 +32,8 @@ HTML,CSS.JAVASCRIPT
 git clone https://github.com/grupo2-agendafacil/AgendaFacil-NAF.git
 cd AgendaFacil-NAF
 
+**Tipo do MVP** 
+prototipo
 
 **Instale as Dependências**:
 No diretório principal, execute
