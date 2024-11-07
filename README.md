@@ -28,9 +28,7 @@ pessoas que procuram um agendamento do NAF.
 HTML,CSS.JAVASCRIPT
 
 
-**instruções para Executar o MVP**:
-git clone https://github.com/grupo2-agendafacil/AgendaFacil-NAF.git
-cd AgendaFacil-NAF
+
 
 **Tipo do MVP** 
 prototipo
