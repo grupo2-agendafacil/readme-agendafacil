@@ -1,5 +1,5 @@
 # Grupo2-agendafacil
-**integrantes da equipe**
+**Integrantes da equipe**
 CAUA DA SILVA COUTO,
 JEAN LUCAS NOGUEIRA FREITAS DA SILVA,
 MATHEUS DE SOUZA PIMENTEL,
