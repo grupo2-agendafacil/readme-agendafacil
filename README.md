@@ -23,7 +23,7 @@ Pessoas que procuram assistencia fiscal ou contabil, e nao sabem como efetuar o 
 
 
 **Tecnologias**:
-HTML,CSS.JAVASCRIPT
+HTML, CSS, JAVASCRIPT
 
  
 **Tipo do MVP** 
