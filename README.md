@@ -10,16 +10,16 @@ WALLACE DOS SANTOS PINTO
 Agenda Fácil (NAF).
 
 
-**Obejetivo**:
+**Objetivo**:
 Tornar o processo de agendamento mais eficiente e acessível para as pessoas.
 
 
-**Publico Alvo**:
-População local,cidadãos que procuram assistencia fiscal e contábil.
+**Público Alvo**:
+População local,cidadãos que procuram assistência fiscal e contábil.
 
 
-**Dores do Publico Alvo**:
-Pessoas que procuram assistencia fiscal ou contabil, e nao sabem como efetuar o agendamento do NAF.
+**Dores do Público Alvo**:
+Pessoas que procuram assistencia fiscal ou contábil, e não sabem como efetuar o agendamento do NAF.
 
 
 **Tecnologias**:
@@ -27,7 +27,7 @@ HTML, CSS, JAVASCRIPT
 
  
 **Tipo do MVP** 
-Prototipo
+Protótipo
 
 
 **MVP – Agenda Fácil NAF**
