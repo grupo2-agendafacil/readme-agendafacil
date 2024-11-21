@@ -1,0 +1,94 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+
+        div {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display:contents;
+            justify-content: center;
+            align-items: center;
+            height: 70vh;
+        }
+        .container {
+            background: #f7f7f7;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(152, 37, 37, 0.1);
+            width: 90%;
+            max-width: 90px;
+
+
+        }
+        h1 {
+            font-size: 1.5rem;
+            color: #333;
+            text-align: center;
+            margin-bottom: 15px;
+            padding: 1rem;
+        }
+        .form1 {
+            margin-bottom: 15px;
+        
+            
+        }
+        label {
+            display: block;
+            margin-bottom: 4px;
+            font-weight: bold;
+            color: #000000;
+            text-align:justify;
+            margin: 1rem;
+        }
+        input, select, textarea {
+            width: 95%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 1rem;
+            text-align: center;
+            margin: 10px;
+        }
+        button {
+            width: 95px;
+            padding: 10px;
+            background-color: #006B64;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            font-size: 1rem;
+            cursor: pointer;
+            margin: 20px;
+            
+        }
+        button:hover {
+            background: #006B64;
+        }
+
+        header,h2{
+            padding: 1rem;
+        font-family:Arial, Helvetica, sans-serif;
+            background-color: #006B64;
+            color: #cbc8c8;
+            
+        }
+
+
+        h3{
+            color: green;
+            text-align: center;
+        }
+        .div2{
+            text-align: center;
+
+        }
+
+        img{
+            width: 100px;
+
+        }
