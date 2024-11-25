@@ -4,20 +4,20 @@ document
     e.preventDefault(); // Previne o recarregamento da página
 
     // Seleciona a nota das estrelas
-    const rating = document.querySelector('input[name="nota"]:checked'); // Retorna o elemento selecionado ou null
-    const feedback = document.getElementById("feedback").value.trim(); // Remove espaços extras
+    const rating = document.querySelector('input[name="nota"]:checked');
+    const feedback = document.getElementById("feedback").value.trim();
 
     if (!rating) {
-      alert("Por favor, selecione uma nota!"); // Exibe mensagem se nenhuma estrela foi selecionada
-      return; // Interrompe o envio
+      alert("Por favor, selecione uma nota!");
+      return;
     }
 
     if (!feedback) {
-      alert("Por favor, preencha o feedback!"); // Exibe mensagem se o feedback estiver vazio
-      return; // Interrompe o envio
+      alert("Por favor, preencha o feedback!");
+      return;
     }
 
-    alert(`Obrigado por avaliar nosso site com ${rating.value} estrela(s)!`); // Mensagem de confirmação
+    alert(`Obrigado por avaliar nosso site com ${rating.value} estrela(s)!`);
     document.getElementById("feedbackForm").reset(); // Reseta o formulário
   });
 
