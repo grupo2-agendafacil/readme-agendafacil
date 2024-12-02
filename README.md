@@ -26,7 +26,7 @@ Pessoas que procuram assistencia fiscal ou contábil, e não sabem como efetuar 
 HTML, CSS, JAVASCRIPT
 
  
-**Tipo do MVP** 
+**Tipo do MVP**: 
 Protótipo
 
 
