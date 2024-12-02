@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+
+    <header>Cadastre seus Dados</header>
+
+    <main>
+        <div class="form">
+            <form action="#">
+                <div class="input-button">
+                    <div class="input-box">
+                        <label for="firstname">Nome: </label>
+                        <input id="firstname" type="text" name="firstname" placeholder="digite seu nome" required>
+                    </div>
+        
+                    <div class="input-box">
+                        <label for="firstname">Telefone:&ensp;</label>
+                        <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="Endereço">Endereço:</label>
+                        <input id="Endereço" type="text" name="Endereço" placeholder="digite seu Endereço" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="email">&emsp;Email:&emsp;</label>
+                        <input id="email" type="email" name="email" placeholder="digite seu email" required>
+                    </div>
+
+
+
+                    <div id="esquerda">
+                        <div class="input-box">
+                            <label  for="lestname">Sobrenome:</label>
+                            <input id="lestname" type="text" name="lestname" placeholder="digite seu sobrenome" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="Cpf">Cpf </label>
+                            <input id="Cpf" type="text" name="Cpf" placeholder="xxx.xxx.xxx-xx" required>
+                        </div>
+                        <br>
+                        <div class="input-box">
+                            <label for="firstname">Data de nascimento:</label>
+                            <input id="date" type="date" name="date" required>
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="input-box">
+                            <label for="estado-civil">Estado civil:</label>
+                            <select name="estado-civil" id="estado-civil">
+                                <option value="solteiro">Solteiro</option> <option value="casado">Casado</option> <option value="divorciado">Divorciado</option> <option value="viuvo">Viúvo
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+      <div id="button">
+          <button onclick="window.location.href=readme-'agendafacil\tela de agendamento\index.html.html'" type="button">
+            <a href="/readme-agendafacil/tela de agendamento/index.html.html">Cadastre-se</a>
+              </button>
+      </div>
+      <script src="script.js"></script>
+</body>
+</html>
