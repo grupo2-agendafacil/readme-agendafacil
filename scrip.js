@@ -1,22 +1,8 @@
+function alertaentrar() {
+    alert('Login efetuado com sucesso!');
+}
 
+function cadastrar() {
+    alert('Redirecionando para a página de cadastro...');
+}
 
-function alertaAgendamento(){
-   
-    let hora =document.getElementById("hora")
-    let date =document.getElementById("date")
-    //verificando campo vazio
-    if(hora.value ==''){
-    alert("campo vazio")
-    }else if(date==''){
- }else{
-        exibirTextoNaTela('h3','agendamento feito com sucesso')
-       }
-    }
-    
-
-
-
-
-function exibirTextoNaTela(tag, texto) {
-    let campo = document.querySelector(tag);
-    campo.innerHTML = texto;}
