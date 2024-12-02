@@ -31,4 +31,4 @@ Protótipo
 
 
 **MVP – Agenda Fácil NAF**
-Desenvolvimento de um website onde serão realizados agendamentos para o NAF, com a realização de cadastramento do usuário com seus dados pessoais, opção de escolha de data e hora para o atendimento, avaliação do agendamento e atendimento por meio de uma escala, área para deixar seu feedback por meio de comentários e informações do agendamento.
+Desenvolvimento de um website onde serão realizados agendamentos para o NAF, com a realização de cadastramento do usuário com seus dados pessoais, opção de escolha do dia e horario para o atendimento, avaliação do agendamento e atendimento por meio de uma escala, área para deixar seu feedback por meio de comentários e informações do agendamento.
