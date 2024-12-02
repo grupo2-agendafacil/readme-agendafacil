@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="ifedback.css" />
+    <link rel="icon" href="img/UnifesoIcon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Agenda NAF</title>
+  </head>
+
+  <body>
+    <div class="header">
+      <img src="img/UnifesoLogo.png" alt="Logo Unifeso" class="logo" />
+      <h1 class="titulo">Agenda NAF</h1>
+    </div>
+
+    <h1 class="text-content", id="mensagem">
+      Seu agendamento foi realizado com sucesso para o dia {dia} às {hora}.
+    </h1>
+
+    <div class="text-content">
+      <h2>Avalie a sua experiência</h2>
+    </div>
+
+    <form id="feedbackForm">
+      <label for="nota">Dê a sua nota:</label>
+      <div class="rating-wrapper">
+        <div class="rating">
+          <input type="radio" id="estrela5" name="nota" value="5" />
+          <label for="estrela5" title="5 estrelas">★</label>
+
+          <input type="radio" id="estrela4" name="nota" value="4" />
+          <label for="estrela4" title="4 estrelas">★</label>
+
+          <input type="radio" id="estrela3" name="nota" value="3" />
+          <label for="estrela3" title="3 estrelas">★</label>
+
+          <input type="radio" id="estrela2" name="nota" value="2" />
+          <label for="estrela2" title="2 estrelas">★</label>
+
+          <input type="radio" id="estrela1" name="nota" value="1" />
+          <label for="estrela1" title="1 estrela">★</label>
+        </div>
+        <div class="rating-error" id="ratingError">
+          Por favor, selecione uma nota!
+        </div>
+      </div>
+
+      <label for="feedback">Seu feedback:</label>
+      <textarea
+        id="feedback"
+        placeholder="Nos conte sua experiência com o site..."
+      ></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
