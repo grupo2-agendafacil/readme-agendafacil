@@ -1,40 +1,41 @@
-<title>Tela de Inicio</title>
-   
-</head>
-<link rel="stylesheet" href="inicial.css">
-<script src="scrip.js"></script>
-<body>
-    
-
-     <header>
+<!DOCTYPE html>
+<html lang="pt-br">
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Tela de Inicio</title>
+   <link rel="stylesheet" href="inicial.css">
+ </head>
+ 
+ <body>
+   <header>
   
-     </header>
-     
-       <h2></h2>
-     <div class="container">
-        <img src="img/UnifesoLogo.png" alt="logo" width="100">
-        <h1>Agendamento NAF</h1>
-      
-     <form>
-         <div class="form1"  id="form1">
-            <label for="login">Login</label>
-            <input type="text" id="E-mail" name="E-mail" required>
-         </div>
-
-         <div class="form1">
-            <label for="Senha">Senha</label>
-            <input type="password" id="Senha" name="Senha" required>
-            </div>
-            <div>
-               
-               <button id="Entrar" onclick="alertaentrar()" name="Entrar">Entrar</button>
-            </div>
-           <div class="container">
-                
-                <button id="Cadastre-se"onclick="cadastrar()" name="Cadastre-se">Cadastre-se</button>     
-            </div>
+   </header>
    
-     </form>
-
-
-</body>
+     <h2></h2>
+   <div class="container">
+      <img src="img/UnifesoLogo.png" alt="logo" width="100">
+      <h1>Agendamento NAF</h1>
+    
+   <form id="myForm"> <!-- Adicionei o ID do formulário aqui -->
+      <div class="form1" id="form1">
+         <label for="email">Login</label> <!-- Alterei de "login" para "email" -->
+         <input type="text" id="email" name="email" required> <!-- Alterei para "email" -->
+       </div>
+     
+       <div class="form1">
+         <label for="senha">Senha</label> <!-- Alterei de "Senha" para "senha" -->
+         <input type="password" id="senha" name="senha" required> <!-- Alterei para "senha" -->
+       </div>
+     
+       <div>
+         <button type="submit" id="Entrar">Entrar</button> <!-- Mudei para "submit" para enviar o formulário -->
+       </div>
+       <div class="container">
+         <button type="button" id="Cadastre-se" onclick="window.location.href='/tela de cadastro/index.html'">Cadastre-se</button>
+       </div>
+   </form>
+   
+   <script src="scrip.js"></script>
+ </body>
+</html>
